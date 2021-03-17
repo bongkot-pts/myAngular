@@ -16,4 +16,8 @@ export class ChildComponentComponent implements OnInit {
   emitValueX(value: string) {
     this.inputValueFromChildX.emit(value);
   }
+
+  actionOK() {
+    console.log('actionOK')
+  }
 }

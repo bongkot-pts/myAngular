@@ -3,3 +3,5 @@
   <input type="text" #inputname (keyup)="setName(inputname.value)" />
   <app-child-component (inputValueFromChildX)="setName($event)"></app-child-component>
 </div>
+
+<router-outlet></router-outlet>
